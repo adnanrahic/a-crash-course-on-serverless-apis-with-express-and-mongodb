@@ -1,0 +1,21 @@
+{
+  "name": "a-crash-course-on-serverless-apis-with-express-and-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "offline": "sls offline start --skipCacheInvalidation"
+  },
+  "keywords": [],
+  "author": "Adnan Rahić",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.7",
+    "serverless-http": "^1.5.5"
+  },
+  "devDependencies": {
+    "serverless-offline": "^3.20.2"
+  }
+}
